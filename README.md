@@ -21,7 +21,6 @@ Measured on the full 2,315 answer list:
 
 **Genetic solver.** A genome is 7 genes: weights for positional frequency, letter frequency, split-seeking (prefer letters near 50/50 presence - information theory rediscovered by evolution), unique letters, answer bias, plus *commit threshold* and *commit turn* (when to stop probing). Fitness = penalty-adjusted average guesses over a fresh sample of real games each generation. Selection is tournament-based with elitism, uniform/blend crossover, Gaussian mutation, and a few random immigrants per generation for diversity.
 
-## Notes
-
+Notes
 - The daily puzzle is a deterministic hash of the date over the public answer list, it is not the official NYT word, so nothing here scrapes or spoils the real game.
 - Custom words outside the official answer list work everywhere: solvers detect the situation and fall back to the full legal-guess dictionary.
