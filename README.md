@@ -1,5 +1,5 @@
 # Wordle Solver AI - Evolution and Information Theory
-Interactive website at https://sane24.github.io/NYT-Wordle-AI/
+Interactive website at https://sane24.github.io/NYT-Wordle-Solver-AI/
 where you can play against the AI, watch evolution and the genetic algorithm live, get hints using information theory.
 
 One puzzle, solved with two kinds of intelligence. 
